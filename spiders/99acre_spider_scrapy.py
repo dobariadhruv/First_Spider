@@ -6,7 +6,7 @@ from ..items import QtItem
 
 class QuoteSpider(Spider):
     name = 'acres'
-    start_urls = ['https://housing.com/in/buy/searches/AB1AC0M1P4hkd3fsj8fd9kanb']
+    start_urls = ['any_url']
 
     def parse(self, response):
         items = QtItem()
